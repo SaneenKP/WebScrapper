@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/SaneenKP/WebScrapper/issues"
   },
-  "homepage": "https://github.com/SaneenKP/WebScrapper#readme"
+  "homepage": "https://github.com/SaneenKP/WebScrapper#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.10"
+  }
 }

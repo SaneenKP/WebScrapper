@@ -1,4 +1,5 @@
 const fetch = require('node-fetch');
+const cheerio = require('cheerio'); 
 const url = 'https://www.udemy.com/course/database-engines-crash-course/'
 
 function getCourseDetails(){
@@ -9,6 +10,7 @@ function getCourseDetails(){
         }).catch((err) => {
             console.log(err);    
         });
+
 }
 
 getCourseDetails()
